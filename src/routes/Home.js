@@ -6,7 +6,7 @@ const Home = () => {
     <div>
         <NavBar />
     </div>
-  )
+  );
 }
 
 export default Home
