@@ -5,10 +5,10 @@ import React, { useState } from 'react';
 
 
 const NavBar = () => {
-    const [hidden, setHidden] = useState(false);
+    const [display, setDisplay] = useState(false);
 
     const handleClick = () => {
-        setHidden(!hidden);
+        setDisplay(!display);
     }
 
   return (
@@ -16,7 +16,7 @@ const NavBar = () => {
         <Link to="/">
             <h1>Portfolio</h1>
         </Link>
-        <ul className="nav-menu">
+        <ul className={display ? "nav-menu active" : "nav-menu"}>
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -31,11 +31,11 @@ const NavBar = () => {
             </li>
         </ul>
         <div className="hamburger" onClick={ handleClick }>
-            {hidden ? (
+            {display ? (
                 <FaTimes size={ 20 } style={{ color: "white" }} />
             ) : (
                 <FaBars size={ 20 } style={{ color: "white" }} />
-            ) }     
+            )}     
         </div>
     </div>
   );
