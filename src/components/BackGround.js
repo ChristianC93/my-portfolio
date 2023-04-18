@@ -1,5 +1,5 @@
 import '../styles/BackGroundStyles.css'
-import BlueBackGround from '../assets/Blue Background.avif'
+import laptop from '../assets/laptop.jpg'
 import React from 'react'
 import { Link } from 'react-router-dom';
 
@@ -7,7 +7,7 @@ const BackGround = () => {
   return (
     <div className='background'>
         <div className='mask'>
-            <img className='intro-img' src={ BlueBackGround } alt='intro-img'/>
+            <img className='intro-img' src={ laptop } alt='intro-img'/>
         </div>
         <div className='content'>
             <h1>Software Developer</h1>
