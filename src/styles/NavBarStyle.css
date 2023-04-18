@@ -9,6 +9,10 @@
     z-index: 10;
 }
 
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .nav-menu{
     display: flex;
 }
