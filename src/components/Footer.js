@@ -1,5 +1,6 @@
 import '../styles/FooterStyle.css';
-import { FaHome, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { FaHome, FaLinkedin, FaMailBulk, FaPhone } from 'react-icons/fa';
+import { GoMarkGithub } from 'react-icons/go';
 import React from 'react'
 
 const Footer = () => {
@@ -27,7 +28,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='right'></div>
+            <div className='right'>
+                <h4>About Me</h4>
+                <p>About me text</p>
+                <div className='socials'>
+                    <GoMarkGithub size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
+                    <FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
+                </div>
+            </div>
         </div>
     </div>
   )
