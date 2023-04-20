@@ -1,6 +1,5 @@
-import '../styles/BackGround2Styles.css'
-
-import React from 'react'
+import '../styles/BackGround2Styles.css';
+import React from 'react';
 
 const BackGround2 = ({ heading, text }) => {
   return (
