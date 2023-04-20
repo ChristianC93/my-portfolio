@@ -7,7 +7,7 @@ import Contact from "./routes/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/projects" element={ <Projects /> } />
