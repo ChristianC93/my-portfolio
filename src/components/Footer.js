@@ -11,26 +11,26 @@ const Footer = () => {
                 <div className='location'>
                     <FaHome size={ 20 } style={{ color: 'white', marginRight: "2rem" }} />
                     <div>
-                        <p>123 Spooner Street</p>
-                        <p>America</p>
+                        <p>2550 Adam Clayton Powell Jr Blvd</p>
+                        <p>New York, NY 10039</p>
                     </div>
                 </div>
                 <div className='phone'>
                     <FaPhone size={ 20 } style={{ color: 'white', marginRight: "2rem" }} /> 
                     <div>
-                        <p>1-888-8888</p>
+                        <p>1-646-255-0841</p>
                     </div>
                 </div>
                 <div className='email'>
                     <FaMailBulk size={ 20 } style={{ color: 'white', marginRight: "2rem" }} />
                     <div>
-                        <p>email@email.com</p>
+                        <p>castillochristian3@gmail.com</p>
                     </div>
                 </div>
             </div>
             <div className='right'>
                 <h4>About Me</h4>
-                <p>About me text</p>
+                <p>An aspiring Full Stack Software Developer</p>
                 <div className='socials'>
                     <GoMarkGithub size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
                     <FaLinkedin size={ 30 } style={{ color: 'white', marginRight: "1rem" }} />
